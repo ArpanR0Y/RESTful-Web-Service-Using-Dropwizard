@@ -1,4 +1,4 @@
-# testWebService
+# RESTful-Web-Service-Using-Dropwizard
 
 How to start the testWebService application
 ---
