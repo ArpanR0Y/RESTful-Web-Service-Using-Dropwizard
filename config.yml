@@ -1,0 +1,9 @@
+logging:
+  level: INFO
+  loggers:
+    com.rest: DEBUG
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: contactuser
+  password: contactpassword
+  url: jdbc:mysql://localhost/contacts

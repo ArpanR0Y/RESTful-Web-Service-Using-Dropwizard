@@ -1,0 +1,6 @@
+com\rest\dao\mappers\ContactMapper.class
+com\rest\WebServiceConfiguration.class
+com\rest\api\Contact.class
+com\rest\WebServiceApplication.class
+com\rest\dao\ContactDAO.class
+com\rest\resources\ContactResource.class
