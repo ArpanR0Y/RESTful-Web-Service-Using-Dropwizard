@@ -1,6 +1,6 @@
 # RESTful-Web-Service-Using-Dropwizard
 
-How to start the testWebService application
+How to start the WebService application
 ---
 
 1. Run `mvn package` to build your application
