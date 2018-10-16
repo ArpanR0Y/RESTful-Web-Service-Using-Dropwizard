@@ -1,11 +1,25 @@
 package com.rest.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.rest.dao.ContactDAO;
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotBlank;
 
-    public class Contact {
+import javax.xml.validation.Validator;
+
+public class Contact {
         private int id;
+
+        @NotBlank
+        @Length(min=2, max=255)
         private String firstName;
+
+        @NotBlank
+        @Length(min=2, max=255)
         private String lastName;
+
+        @NotBlank
+        @Length(min=10, max=10, message = "The phone number must have 10 digits")
         private String phone;
 
     public Contact() {

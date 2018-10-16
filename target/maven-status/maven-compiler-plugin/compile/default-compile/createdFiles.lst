@@ -1,6 +1,9 @@
+com\rest\auth\ContactAuthorizer.class
+com\rest\auth\User.class
 com\rest\dao\mappers\ContactMapper.class
 com\rest\WebServiceConfiguration.class
 com\rest\api\Contact.class
 com\rest\WebServiceApplication.class
 com\rest\dao\ContactDAO.class
+com\rest\auth\ContactAuthenticator.class
 com\rest\resources\ContactResource.class
