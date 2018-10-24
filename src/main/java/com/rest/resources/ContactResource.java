@@ -35,7 +35,6 @@ public class ContactResource {
     @GET    // retrieve information about the contact with the provided id
     @PermitAll
     @Path("/{id}")
-    /*@Produces(MediaType.APPLICATION_JSON)*/
     public Response getContact(@PathParam("id") int id, @Auth User user) {
 
         Contact contact = contactDao.getContactById(id);
