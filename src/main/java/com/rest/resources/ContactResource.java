@@ -1,6 +1,5 @@
 package com.rest.resources;
 
-
 import javax.annotation.security.PermitAll;
 import javax.validation.ConstraintViolation;
 import javax.ws.rs.*;
